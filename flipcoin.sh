@@ -30,3 +30,6 @@ else
 done
 if (( $flag==1 ))
 then
+echo "Tail wins $t times and head looses $h times with difference of: "$diff
+else
+echo "Head wins $h times and Tail looses $t times with difference of: "$diff
