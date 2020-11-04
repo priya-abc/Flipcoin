@@ -27,3 +27,6 @@ else
               flag=1
               fi
        fi
+done
+if (( $flag==1 ))
+then
