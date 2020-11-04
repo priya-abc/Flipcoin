@@ -17,3 +17,13 @@ flip=$((RANDOM%2))
        continue
 fi
 else
+((t++))
+    if (( $h >=21 | $t >=21))
+    then
+ diff=$(($h-$t))
+          if (( $diff < 0 ))
+          then
+              diff=`expr $diff * -1`
+              flag=1
+              fi
+       fi
